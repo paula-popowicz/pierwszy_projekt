@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Pikniki w naturze </title>
+    <meta name="description" content="Strona o piknikach w naturze- pomysły, przepisy, miejsca" />
+    <meta name="keywords" content="piknik, natura, przepisy" />
+    <meta http-eqiuv="author" content="Paula" />
+  </head>
+  <body>
+    <div id="header">
+    <h1 id="top"> Pikniki w naturze </h1>
+      <p> Sztuka piknikowania- powolnego czasu spędzanego w naturze. </p>
+    <navi>
+    <ol>
+      <li><a href="#piknik">Czym jest piknik w naturze?</a></li>
+      <li><a href="#miejsce">Gdzie zorganizować piknik?</a></li>
+      <li><a href="#akcesoria"> Co ze sobą zabrać?</a></li>
+      <li><a href="#przepisy">Piknikowe menu</a></li>
+      <li><a href="#blog">Piknikowe porady i inspiracje</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ol>
+    </navi>
+    </div><!--koniec nagłówka i spisu treści (id "header") -->
+    
+       <footer>
+         <p><a href="#top">Na początek</a></p>
+      </footer>
+  </body>
+   
+    </html>
