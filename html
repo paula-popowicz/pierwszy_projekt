@@ -6,7 +6,6 @@
     <meta http-eqiuv="author" content="Paula" />
   </head>
   <body>
-    <div id="header">
     <div class="navi">
     <ul>
       <li><a href="#kontakt">Kontakt</a></li>
@@ -16,11 +15,11 @@
       <li><a href="#piknik">O piknikach</a></li>
     </ul>
     </div>
-    <div id="container">
+    <div class="container">
        <img src="https://i.pinimg.com/736x/27/9a/c6/279ac6011d0217ac7055ce2793c8d0c8.jpg" id="top" alt="Lato na wsi" width="600px">
       <div class="text">
-      <h1 id="top"> Pikniki w naturze </h1>
-       <h3 id="top"> Zdefiniuj na nowo odpoczynek w naturze. </h3>
+      <h1 class="top"> Pikniki w naturze </h1>
+       <h3 class="top"> Zdefiniuj na nowo odpoczynek w naturze. </h3>
         </div>
     </div><!--koniec nagłówka i spisu treści (id "header") -->
   <div class="container2">
@@ -61,7 +60,9 @@
   
     <h2 id="kontakt">Kontakt</h2>
     <p>Masz pytania? Chcesz opowiedzieć o swoich piknikowych pomysłach? Napisz do mnie- czekam na Twoją wiadomość.</p>
-     <form action="https://example.com/submit" method="post">
+    
+    <div class="formularz"> 
+    <form action="https://example.com/submit" method="post">
       <label for="name">Imię:</label>
       <input type="text" id="name" name="name" required>
       <label for="e-mail">E-mail:</label>
@@ -82,8 +83,9 @@
         <option volue="wspomnienia">wspomnienia z mojego pikniku</option>
       </select><br>
       <button type="wyślij">wyślij odpowiedź</button>
+    </div>
        <footer>
-      <p><a href="#top">Na początek</a>
+         <p><a href="#top">Na początek</a></p>
       </footer>
   </body>
    
