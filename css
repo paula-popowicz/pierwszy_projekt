@@ -1,12 +1,18 @@
 body{
   font-family: Poppins}
 h1 {
-  font-size: 500%}
+  font-size: 500%
+}
+h2 {
+    line-height: 200%
+
+}
 #top {
   line-height: 50%
 }
 h3 {
-  color: #718355}
+  color: #718355;
+}
 
 a:link{
   color:black;
@@ -64,6 +70,23 @@ color: #6B8E23;
   max-width: 800px;
   border-style: solid;
   border-color: black;
+  border-radius: 10px;
   margin: 30px;
   padding: 50px;
+}
+
+.button {
+  background-color: #718355;
+ font-size: 15px;
+  padding: 10px;
+ text-decoration: none;
+ transition-duration: 0.4s;
+  border: 3px solid black;
+  text-transform: uppercase;
+  border-radius: 10px;
+
+}
+ .button:hover {
+   background-color: white;
+  border: 3px solid #black;
 }
